@@ -9,11 +9,11 @@ const BOT_PREFIX = "!"
 const MOD_ME_COMMAND = "mod-me"
 
 client.on("ready", () => {
-  console.log("Our bot is ready to go!!!!")
+  console.log("Our bot is ready to go!!")
 })
 
 client.on("messageDelete", msg => {
-  msg.channel.send("Stop deleting messages")
+  msg.channel.send("Stop deleting messages!!")
 })
 
 client.on("message", msg => {
