@@ -26,7 +26,7 @@ client.on("message", msg => {
   }
 })
 
-function modUser(member) {
+const modUser = (member) => {
   member.roles.add("783084095223234590")
 }
 
